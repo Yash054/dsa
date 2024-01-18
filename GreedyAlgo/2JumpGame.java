@@ -1,5 +1,5 @@
-  //The easiest way to think about this problem is to ask are the elements with a 0 value avoidable? this is the algorithm that I constructed to answer this question.Starting from the second to last element in the array we continue to decrement towards the start of the array. Only stopping if we hit an element with a value of 0; in this case we evaluate if there exist an element somewhere at the start of the array which has a jump value large enough to jump over this 0 value element.
-
+  // The easiest way to think about this problem is to ask are the elements with a 0 value avoidable? this is the algorithm that I constructed to answer this question.Starting from the second to last element in the array we continue to decrement towards the start of the array. Only stopping if we hit an element with a value of 0; in this case we evaluate if there exist an element somewhere at the start of the array which has a jump value large enough to jump over this 0 value element.
+ 
 public class Solution {
     public boolean canJump(int[] nums) {
        if(nums.length < 2) return true;
