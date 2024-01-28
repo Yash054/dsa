@@ -9,6 +9,7 @@
 // Complexity
 // Time Complexity: O(N), where N is the number of houses.
 // Space Complexity: O(1), as we use constant space for variables rob and norob.
+
 class Solution {
     public int rob(int[] nums) {
         int rob = 0;
