@@ -8,7 +8,7 @@
 // The final result is the maximum amount between the two scenarios: robbing the last house or not robbing it.
 // Complexity
 // Time Complexity: O(N), where N is the number of houses.
-// Space Complexity: O(1),    as we use con stant space for variables rob and norob.
+// Space Complexity: O(1), as we use con stant space for variables rob and norob.
 
 class Solution {
     public int rob(int[] nums) {
