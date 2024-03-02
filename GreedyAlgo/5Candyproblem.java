@@ -1,4 +1,10 @@
 public class 5Candyproblem {
+
+
+    //initialise the array with initial 1 candy to each , as per the condition 
+    // aproach follows the algo in which we first traverse from the left to right 
+    //during the traversal we checks for the ascending oreder in the array (this time we use the max function to not disturb the values initially set up by the 1st traversal)
+    // return result;
         public int candy(int[] ratings) {
             int n = ratings.length;
             int[] candies = new int[n];
