@@ -61,3 +61,15 @@ class Node {
         left = right = null;
     }
 }
+
+/////////////////////////////////////////////         RECURSION     /////////////////////////
+
+// public class TUF {
+//     static void preOrderTrav(Node curr, ArrayList < Integer > preOrder) {
+//         if (curr == null)
+//             return;
+
+//         preOrder.add(curr.data);
+//         preOrderTrav(curr.left, preOrder);
+//         preOrderTrav(curr.right, preOrder);
+//     }
