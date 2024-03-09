@@ -30,3 +30,33 @@ class Solution {
         return st;
     }
     }
+
+
+    ///////////////////   ITERATIVE   Using Two stack,    //////////////////////////
+    // public class TUF {
+    //     static ArrayList < Integer > postOrderTrav(Node curr) {
+    
+    //         ArrayList < Integer > postOrder = new ArrayList < > ();
+    //         if (curr == null) return postOrder;
+    
+    //         Stack < Node > s1 = new Stack < > ();
+    //         Stack < Node > s2 = new Stack < > ();
+    //         s1.push(curr);
+    //         while (!s1.isEmpty()) {
+    //             curr = s1.peek();
+    //             s1.pop();
+    //             s2.push(curr);
+    //             if (curr.left != null)
+    //                 s1.push(curr.left);
+    //             if (curr.right != null)
+    //                 s1.push(curr.right);
+    //         }
+    //         while (!s2.isEmpty()) {
+    //             postOrder.add(s2.peek().data);
+    //             s2.pop();
+    //         }
+    //         return postOrder;
+    //     }
+
+
+    ////////////////////////////// We can also do using one stack ///////////////////////////
