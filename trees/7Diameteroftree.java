@@ -1,6 +1,7 @@
-package trees;
+// package trees;
 
-public /**
+// public
+ /**
 * Definition for a binary tree node.
 * public class TreeNode {
 *     int val;
@@ -39,6 +40,4 @@ class Solution {
 
            }
 
-} {
-    
-}
+} 
