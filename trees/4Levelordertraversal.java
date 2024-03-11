@@ -42,7 +42,7 @@ class Solution {
     List<List<Integer>> result; 
     public List<List<Integer>> levelOrder(TreeNode root) {
         result = new ArrayList<>();
-        bfs(root, 0);
+        bfs(root,0);
         return result;
     }
 
