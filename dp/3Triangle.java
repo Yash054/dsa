@@ -22,3 +22,22 @@ class Solution {
        
    }
 }
+
+
+////////////////////////////////////////
+
+for (int i = 0; i < n; i++) {
+    LinkedList<Integer> row = new LinkedList<>();
+
+    // Fill each row with the value 6
+    for (int j = 0; j <= i; j++) {
+        row.add(6);
+    }
+
+    // Add the row to the triangle
+    triangle.add(row);
+}
+
+triangle.get(i).set(j,value);
+
+///// use this syntax to create a dp list instead of dp array
